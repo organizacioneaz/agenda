@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #3a3d47;
+  font-family: Verdana;
+}
+
+.container {
+  width: 1200px;
+  background: white;
+  margin: 10px auto;
+}
+
+.superior {
+  background: #1551a1;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  width: 300px;
+  padding: 25px;
+}
+/*estilos para el menu de opciones*/
+.menu {
+  float: left;
+  padding: 80px;
+}
+
+.opciones li {
+  float: left;
+  list-style: none;
+}
+
+.opciones li a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+.opciones li a:hover {
+  background: #0f3d79;
+}
+
+/*estilos para el cuerpo*/
+.cuerpo {
+  overflow: hidden;
+}
+
+.caja1 {
+  float: left;
+  margin: 10px;
+}
+
+.texto1 {
+  text-align: justify;
+  margin: 20px;
+  text-indent: 10px;
+  line-height: 30px;
+}
+
+.caja2 {
+  float: right;
+  margin: 10px;
+}
+
+.caja3 {
+  float: left;
+  margin: 10px;
+}
+
+.titulo {
+  text-align: center;
+  padding: 20px 0 15px 0;
+  color: #ff7600;
+  font-size: 35px;
+}
+
+/*estilos del footer*/
+.pie {
+  background: #062348;
+  overflow: hidden;
+  padding: 20px 0 15px 0;
+}
+
+.izquierda {
+  float: left;
+  width: 550px;
+  text-align: center;
+}
+
+.derecha {
+  float: left;
+  width: 550px;
+  padding: 20px;
+  text-align: center;
+}
+
+.abajo {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding: 10px 0 15px 0;
+}
+
+.siguenos {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.redes a:hover {
+  background: white;
+  padding: 30px 5px 5px 5px;
+}
